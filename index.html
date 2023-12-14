@@ -14,6 +14,7 @@
         init: function () {
           this.el.addEventListener('targetFound', event => {
             console.log("target found");
+           el.setAttribute('animation-mixer', {clip: '*', loop: 'once'});
           });
           this.el.addEventListener('targetLost', event => {
             console.log("target Lost");
