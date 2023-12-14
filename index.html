@@ -4,11 +4,7 @@
    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
     <script>
-      function changeModel() {
-        var dropdown = document.getElementById("modelSelector");
-        var selectedModel = dropdown.options[dropdown.selectedIndex].value;
-        document.getElementById("Model").setAttribute("src", selectedModel);
-      }
+     
 
        AFRAME.registerComponent('mytarget', {
         init: function () {
